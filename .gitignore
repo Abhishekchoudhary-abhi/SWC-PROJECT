@@ -1,0 +1,25 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+uploads/
+
+# Logs and crash dumps
+*.log
+hs_err_pid*
+
+# Java / Maven
+**/target/
+*.class
+
+# Node / Next.js
+**/node_modules/
+**/.next/
+**/out/
+**/coverage/
+*.tsbuildinfo
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
